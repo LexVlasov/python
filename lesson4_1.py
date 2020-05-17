@@ -1,11 +1,7 @@
-from sys import argv
+import sys
 
-name_sript, vyrabotka, stavka, premiya = argv
+vyrabotka, stavka, premiya = map(float, sys.argv[1:])
 
-print("Название скрипта:", name_sript)
-print("Выработка в часах:", vyrabotka)
-print("Почасовая ставка:", stavka)
-print("Премия:", premiya)
 a = int(vyrabotka) * int(stavka) + int(premiya)
-print("Итого зарплата: ", str(a))
+print("Итого зарплата: {}".format(a))
 
