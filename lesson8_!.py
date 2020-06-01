@@ -27,4 +27,4 @@ class Date:
 
 
 Date.get_static('40-13-2019')
-Date.get_class('25-12-2019')
+Date.get_class('25-12-2025')
