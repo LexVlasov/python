@@ -8,7 +8,7 @@ class DellNull():
         except:
             return 'Бесконечное число'
 
-a = DellNull(1)
+a = DellNull(10)
 b = DellNull(0)
 
 print(a/b)
